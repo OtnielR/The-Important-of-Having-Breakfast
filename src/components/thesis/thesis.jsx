@@ -24,7 +24,7 @@ export default function Thesis() {
                 </div>
                 <div className="flex items-center gap-28 flex-row w-full z-20">
                     <div className="w-1/3 z-20 relatif">
-                        <img src={thesisBreakfast} className=" w-full select-none transition-transform duration-25" alt="" style={{ transform: `translateY(${(scroll.scroll - .5) * -50}px)` }} />
+                        <img src={thesisBreakfast} className=" w-full select-none transition-transform duration-25" alt="" style={{ transform: `translateY(${(scroll.scroll - .5) * -100}px)` }} />
                     </div>
                     <div className="flex-1 flex flex-col gap-8 z-20">
                         <p></p>
