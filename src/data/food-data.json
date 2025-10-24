@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Porridge",
+        "slug": "porridge",
+        "date": "2025-10-20",
+        "author": "Admin",
+        "content": "Breakfast provides the energy and nutrients your body needs to start the day. Skipping it can lead to fatigue, poor concentration, and overeating later.",
+        "img": "porridge-breakfast.jpg",
+        "nutrients": {
+            "calories": 250,
+            "protein": 20,
+            "Dietary Fiber": 10
+        },
+        "materials": "Lorem",
+        "steps": "1. Cook the rice \n 2. Cook the rice"
+    },
+    {
+        "id": 2,
+        "title": "Nasi Padang",
+        "slug": "nasi-padang",
+        "date": "2025-10-18",
+        "author": "Admin",
+        "content": "Studying from home can be challenging. Creating a schedule, taking short breaks, and staying away from distractions are key to staying productive.",
+        "img": "porridge-breakfast.jpg",
+        "nutrients": {
+            "calories": 250,
+            "protein": 20,
+            "Dietary Fiber": 10
+        },
+        "materials": "Lorem",
+        "steps": "1. Cook the rice \n 2. Cook the rice"
+    },
+    {
+        "id": 3,
+        "title": "Fried Chicken",
+        "slug": "stay-productive-while-studying-online",
+        "date": "2025-10-18",
+        "author": "Admin",
+        "content": "Studying from home can be challenging. Creating a schedule, taking short breaks, and staying away from distractions are key to staying productive.",
+        "img": "porridge-breakfast.jpg",
+        "nutrients": {
+            "calories": 250,
+            "protein": 20,
+            "Dietary Fiber": 10
+        },
+        "materials": "Lorem",
+        "steps": "1. Cook the rice \n 2. Cook the rice"
+    }
+]

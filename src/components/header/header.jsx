@@ -5,7 +5,6 @@ import leaf1 from "/leaf-1.webp"
 import leaf2 from "/leaf-2.webp"
 import tomatoes1 from "/tomatoes-1.webp"
 import spices1 from "/spices-1.webp"
-import { document } from "postcss"
 
 export default function Header() {
     const [motion, setMotion] = useState({ x: 0, y: 0, scroll: 0 })
