@@ -2,7 +2,7 @@ export default function BlogHeader({ blog }) {
 
     return (
         <>
-            <div className="grid grid-cols-2 gap-8 px-4 py-12">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 px-4 py-12">
                 <div>
                     <div className="h-full w-full">
                         <img src={blog.img} className="h-full w-full object-cover rounded-lg" alt="" />

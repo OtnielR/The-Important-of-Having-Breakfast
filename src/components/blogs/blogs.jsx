@@ -1,17 +1,19 @@
 import Blog from "../blog/blog"
-import { getBlogsExcept } from "../../../lib/blog.js"
+import { getBlogsExcept, getRandomBlog } from "../../../lib/blog.js"
 
-export default function Blogs({ title, slug }) {
+export default function Blogs({ title, subtitle, slug, limit = 3 }) {
     const foodData = getBlogsExcept(slug)
+    const blogs = getRandomBlog(foodData, limit)
 
     return (
         <>
             <div className="px-24 py-16 flex flex-col gap-12 items-center justify-center">
                 <div className="text-[#002922] text-4xl mb-16">
-                    <h1>{title}</h1>
+                    <p className="text-xl text-[#b92e2d] text-center font-bold tracking-tight">{subtitle}</p>
+                    <h1 className="text-3xl text-[#002922]">{title}</h1>
                 </div>
-                <div className="grid grid-cols-3 gap-12 justify-evenly items-center">
-                    {foodData.map(blog => {
+                <div className="grid grid-cols-2 xl:grid-cols-3 gap-y-32 gap-x-16 xl:gap-12 justify-evenly items-center">
+                    {blogs.map(blog => {
                         return <Blog blog={blog}></Blog>
                     })}
                 </div>

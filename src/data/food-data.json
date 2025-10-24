@@ -1,50 +1,82 @@
 [
     {
         "id": 1,
-        "title": "Porridge",
-        "slug": "porridge",
-        "date": "2025-10-20",
+        "title": "Bubur Ayam",
+        "slug": "bubur-ayam",
+        "date": "2025-10-18",
         "author": "Admin",
-        "content": "Breakfast provides the energy and nutrients your body needs to start the day. Skipping it can lead to fatigue, poor concentration, and overeating later.",
-        "img": "porridge-breakfast.jpg",
+        "content": "Bubur Ayam is one of Indonesia’s most popular breakfast dishes. It’s light, warm, and easy to digest, making it perfect to start the day with enough energy without feeling too heavy.",
+        "img": "bubur-ayam.jpg",
         "nutrients": {
-            "calories": 250,
-            "protein": 20,
-            "Dietary Fiber": 10
+            "calories": 350,
+            "protein": 18,
+            "Dietary Fiber": 2
         },
-        "materials": "Lorem",
-        "steps": "1. Cook the rice \n 2. Cook the rice"
+        "materials": "Rice, shredded chicken, chicken broth, fried shallots, sweet soy sauce, celery leaves",
+        "steps": "1. Boil rice with chicken broth until it becomes porridge.\n2. Add shredded chicken on top.\n3. Serve with sweet soy sauce, celery leaves, and fried shallots."
     },
     {
         "id": 2,
-        "title": "Nasi Padang",
-        "slug": "nasi-padang",
+        "title": "Nasi Uduk ",
+        "slug": "nasi-uduk",
         "date": "2025-10-18",
         "author": "Admin",
-        "content": "Studying from home can be challenging. Creating a schedule, taking short breaks, and staying away from distractions are key to staying productive.",
-        "img": "porridge-breakfast.jpg",
+        "content": "Nasi Uduk is steamed rice cooked in coconut milk and spices, giving it a rich aroma and savory flavor. It’s usually served with eggs, tempeh, and chili sauce for a complete breakfast.",
+        "img": "nasi-uduk.jpg",
         "nutrients": {
-            "calories": 250,
-            "protein": 20,
-            "Dietary Fiber": 10
+            "calories": 480,
+            "protein": 16,
+            "Dietary Fiber": 4
         },
-        "materials": "Lorem",
-        "steps": "1. Cook the rice \n 2. Cook the rice"
+        "materials": "Rice, coconut milk, lemongrass, bay leaves, boiled egg, fried tempeh, sambal",
+        "steps": "1. Cook rice with coconut milk, lemongrass, and bay leaves until done.\n2. Serve with boiled egg, fried tempeh, and sambal.\n3. Enjoy while warm."
     },
     {
         "id": 3,
-        "title": "Fried Chicken",
-        "slug": "stay-productive-while-studying-online",
-        "date": "2025-10-18",
+        "title": "Lontong Sayur ",
+        "slug": "lontong-sayur",
+        "date": "2025-10-19",
         "author": "Admin",
-        "content": "Studying from home can be challenging. Creating a schedule, taking short breaks, and staying away from distractions are key to staying productive.",
-        "img": "porridge-breakfast.jpg",
+        "content": "Lontong Sayur is a traditional Betawi breakfast dish made from rice cakes served with spicy coconut milk soup and vegetables. It’s a flavorful and hearty way to start the day.",
+        "img": "lontong-sayur.jpg",
         "nutrients": {
-            "calories": 250,
-            "protein": 20,
-            "Dietary Fiber": 10
+            "calories": 520,
+            "protein": 15,
+            "Dietary Fiber": 6
         },
-        "materials": "Lorem",
-        "steps": "1. Cook the rice \n 2. Cook the rice"
+        "materials": "Rice cakes, chayote, coconut milk, spice paste, boiled egg, sambal goreng",
+        "steps": "1. Stir-fry the spice paste until fragrant.\n2. Add coconut milk and chayote, cook until tender.\n3. Serve with rice cakes and boiled egg."
+    },
+    {
+        "id": 4,
+        "title": "Grilled Bread with Chocolate and Cheese",
+        "slug": "roti-bakar-cokelat-keju",
+        "date": "2025-10-20",
+        "author": "Admin",
+        "content": "Roti Bakar is a popular Indonesian breakfast or snack. This version combines chocolate and cheese for a sweet and savory flavor that melts perfectly on warm toasted bread.",
+        "img": "roti-bakar.jpg",
+        "nutrients": {
+            "calories": 380,
+            "protein": 9,
+            "Dietary Fiber": 3
+        },
+        "materials": "White bread, chocolate spread, grated cheese, butter, condensed milk",
+        "steps": "1. Spread butter on both sides of the bread and grill until golden.\n2. Add chocolate spread and grated cheese between slices.\n3. Drizzle with condensed milk before serving."
+    },
+    {
+        "id": 5,
+        "title": "Ketoprak ",
+        "slug": "ketoprak",
+        "date": "2025-10-21",
+        "author": "Admin",
+        "content": "Ketoprak is a traditional Jakarta breakfast made with rice vermicelli, tofu, bean sprouts, and peanut sauce. It’s filling, nutritious, and packed with local flavor.",
+        "img": "ketoprak.jpg",
+        "nutrients": {
+            "calories": 450,
+            "protein": 17,
+            "Dietary Fiber": 5
+        },
+        "materials": "Rice vermicelli, fried tofu, bean sprouts, peanut sauce, rice cake, fried shallots",
+        "steps": "1. Prepare peanut sauce by blending peanuts, garlic, chili, and sweet soy sauce.\n2. Arrange tofu, vermicelli, and bean sprouts on a plate.\n3. Pour peanut sauce over and sprinkle with fried shallots."
     }
 ]
