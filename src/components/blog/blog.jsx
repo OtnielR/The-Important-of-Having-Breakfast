@@ -11,7 +11,7 @@ export default function Blog({ blog }) {
                 />
             </div>
             <Link to={`/blogs/${blog.slug}`} className="mt-2 text-2xl tracking-widest font-semibold text-[#002922]">{blog.title}</Link>
-            <p className="truncate-3-lines">{blog.content}</p>
+            <p className="truncate-2-lines md:truncate-3-lines">{blog.content}</p>
         </div >
     );
 }

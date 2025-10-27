@@ -56,9 +56,9 @@ export default function Header() {
                 <div className="flex flex-col items-center gap-12 px-12 py-12 z-20">
                     <div className="flex flex-col gap-8 justify-center items-center z-20">
                         <p className="text-2xl text-[#b92e2d] font-bold tracking-tight">Issue</p>
-                        <h1 className="w-2/3 text-6xl text-[#002922] text-center tracking-wider font-bold bg-transparent">THE IMPORTANT OF BREAKFAST</h1>
+                        <h1 className="w-full text-4xl md:text-6xl text-[#002922] text-center tracking-wider font-bold bg-transparent">THE IMPORTANCE OF BREAKFAST</h1>
                     </div>
-                    <div className="w-4/5 xl:w-1/2 z-20 px-8">
+                    <div className="w-full md:w-4/5 xl:w-1/2 z-20 md:px-8">
                         <img src={headerBreakfast} className="w-full h-full" alt="" />
                     </div>
                 </div>

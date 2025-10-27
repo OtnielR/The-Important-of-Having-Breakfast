@@ -3,7 +3,7 @@ import argumentasionBreakfast2 from "/argumentasion-breakfast-2.webp"
 
 export default function Argumentasion() {
     return (<>
-        <div className="flex flex-col-reverse xl:flex-row gap-8 px-8 py-32 ">
+        <div className="flex flex-col-reverse xl:flex-row gap-8 px-4 py-16 md:px-8 md:py-32 ">
             <div className="w-full xl:w-1/2 flex flex-row gap-8">
                 <div className="relative w-1/2 flex items-start">
                     <img src={argumentasionBreakfast1} className="object-cover rounded-lg w-full h-4/5" alt="" />
@@ -14,9 +14,9 @@ export default function Argumentasion() {
 
                 </div>
             </div>
-            <div className=" w-full xl:w-1/2 flex flex-col gap-12 px-16 py-8 text-center xl:text-left    ">
+            <div className=" w-full xl:w-1/2 flex flex-col gap-12 px-4 md:px-16 md:py-8 text-center xl:text-left    ">
                 <div className="flex flex-col gap-2">
-                    <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Argumentasion</p>
+                    <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Augmentasion</p>
                     <h1 className=" text-3xl text-[#002922]  tracking-wider font-semibold bg-transparent">Why you should'nt skip breakfast</h1>
                 </div>
 

@@ -49,7 +49,7 @@ export default function Conclusion() {
                 <div className="flex flex-col justify-center gap-8 flex-1 px-8 py-8 xl:px-16 xl:py-16 z-20">
                     <p className="text-2xl text-[#b92e2d] font-bold tracking-tight">Conclusion</p>
                     <h1 className="text-4xl text-[#002922]">What we've learned</h1>
-                    <p className="w-3/4 text-xl z-20">
+                    <p className="w-full md:w-3/4 text-lg md:text-xl z-20">
 
                         In conclusion, breakfast is not just a daily routine but a key to a healthy lifestyle. It restores energy, provides nutrients, supports focus, and prevents disease. Therefore, skipping breakfast is an unwise habit, and everyone should start their day with a nutritious meal.
                     </p>
