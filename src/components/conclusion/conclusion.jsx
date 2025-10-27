@@ -45,7 +45,7 @@ export default function Conclusion() {
             </div>
 
 
-            <div className="flex flex-col xl:flex-row  rounded-lg bg-[#F8EFD8] px-4 py-12 z-20">
+            <div className="flex flex-col xl:flex-row  rounded-lg bg-[#F8EFD8] px-2 py-8 md:px-4 md:py-12 z-20">
                 <div className="flex flex-col justify-center gap-8 flex-1 px-8 py-8 xl:px-16 xl:py-16 z-20">
                     <p className="text-2xl text-[#b92e2d] font-bold tracking-tight">Conclusion</p>
                     <h1 className="text-4xl text-[#002922]">What we've learned</h1>

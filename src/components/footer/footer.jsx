@@ -12,12 +12,12 @@ export default function Footer() {
 
     return (<>
         <div className="w-full bg-[#F8EFD8] py-12">
-            <div className="flex flex-col xl:flex-row">
-                <div className="flex flex-col gap-4 w-full xl:w-2/4 px-16 py-8  xl:border-r-2 border-[#C9C9B5] ">
-                    <h1 className="w-2/3 text-2xl md:text-3xl text-[#002922]">Thank you for visiting our website</h1>
+            <div className="flex flex-col xl:flex-row gap-8 md:gap-0">
+                <div className="flex flex-col gap-4 w-full xl:w-2/4 px-8 py-4 md:px-16 md:py-8  xl:border-r-2 border-[#C9C9B5] ">
+                    <h1 className="w-full md:w-2/3 text-2xl md:text-3xl text-[#002922]">Thank you for visiting our website</h1>
                     <p className="text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate in rem natus voluptatum commodi dolores qui odit expedita? Animi quam consectetur dicta beatae et excepturi adipisci perferendis dolores officiis? Adipisci?</p>
                 </div>
-                <div className="flex flex-col gap-4 w-full xl:w-1/4  px-16 py-8  border-r-2 border-[#C9C9B5] ">
+                <div className="flex flex-col gap-4 w-full xl:w-1/4 px-8 md-4  md:px-16 md:py-8  border-r-2 border-[#C9C9B5] ">
                     <h1 className="w-2/3 text-2xl md:text-3xl text-[#002922] ">Links</h1>
                     <div className="flex flex-col gap-2 xl:gap-6 ">
                         {Object.entries(links).map(([key, value]) => {
@@ -26,7 +26,7 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <div className="flex flex-col gap-4 w-full xl:w-1/4  px-16 py-8  border-r-2 border-[#C9C9B5] ">
+                <div className="flex flex-col gap-4 w-full xl:w-1/4 px-8 py-4 md:px-16 md:py-8  border-r-2 border-[#C9C9B5] ">
                     <h1 className="w-2/3 text-lg md:text-3xl text-[#002922]">Contact Us</h1>
                     <p className="text-lg md:text-xl">Phone: 123-456-789</p>
                     <p className="text-lg md:text-xl">Phone: 123-456-789</p>

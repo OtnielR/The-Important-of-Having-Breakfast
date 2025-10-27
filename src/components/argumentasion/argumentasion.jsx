@@ -16,11 +16,11 @@ export default function Argumentasion() {
             </div>
             <div className=" w-full xl:w-1/2 flex flex-col gap-12 px-4 md:px-16 md:py-8 text-center xl:text-left    ">
                 <div className="flex flex-col gap-2">
-                    <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Augmentasion</p>
+                    <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Augmentation</p>
                     <h1 className=" text-3xl text-[#002922]  tracking-wider font-semibold bg-transparent">Why you should'nt skip breakfast</h1>
                 </div>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-12 md:gap-4">
                     <div className="flex flex-col gap-4">
                         <h1 className="text-2xl">
                             Breakfast restores energy and metabolism.
