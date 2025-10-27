@@ -53,7 +53,7 @@ export default function Header() {
                     <img src={spices1} draggable="false" className="w-48 blur-sm absolute bottom-12 right-24 select-none transition-transform duration-50" alt="" style={{ bottom: `calc(4.5rem + ${motion.y * 55 + motion.scroll * 60}px)`, right: `calc(6rem + ${motion.x * -60}px)` }} />
                 </div>
 
-                <div className="flex flex-col items-center gap-12 px-12 py-12 z-20">
+                <div className="flex flex-col items-center gap-12 px-4 md:px-12 py-12 z-20">
                     <div className="flex flex-col gap-8 justify-center items-center z-20">
                         <p className="text-2xl text-[#b92e2d] font-bold tracking-tight">Issue</p>
                         <h1 className="w-full text-4xl md:text-6xl text-[#002922] text-center tracking-wider font-bold bg-transparent">THE IMPORTANCE OF BREAKFAST</h1>
