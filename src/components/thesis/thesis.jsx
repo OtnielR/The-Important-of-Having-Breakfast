@@ -30,7 +30,7 @@ export default function Thesis() {
                                 <img src={thesisBreakfast} className="h-full xl:w-full xl:h-auto select-none transition-transform transform-none duration-25" alt="" style={{ transform: `translateY(${(scroll.scroll - .5) * -100}px)` }} />
                             </div>
                             <div className="flex-1 flex flex-col gap-8 z-20">
-                                <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Thesis</p>
+                                <p className="hidden text-xl text-[#b92e2d] font-bold tracking-tight">Thesis</p>
                                 <h1 className="w-full text-5xl text-[#002922]">WHY BREAKFAST IS IMPORTANT</h1>
                                 <p className="w-full text-lg">Breakfast is one of the most important meals of the day because it provides the energy and nutrients our body and brain need to function well. Although some people skip breakfast due to busy schedules or dieting, this habit can harm both physical and mental health. Therefore, everyone should make breakfast a regular and healthy routine.</p>
                                 <div className="w-full flex gap-6">

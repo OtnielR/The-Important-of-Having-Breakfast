@@ -4,7 +4,7 @@ export default function BlogHeader({ blog }) {
         <>
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 px-4 py-12">
                 <div>
-                    <div className="h-full w-full overflow-hidden">
+                    <div className="h-full w-full object-contain overflow-hidden">
                         <img src={blog.img} className="h-full w-full object-cover rounded-lg" alt="" />
                     </div>
                 </div>

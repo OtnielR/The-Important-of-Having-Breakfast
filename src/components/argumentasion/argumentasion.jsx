@@ -1,5 +1,5 @@
-import argumentasionBreakfast1 from "/argumentasion-breakfast-1.webp"
-import argumentasionBreakfast2 from "/argumentasion-breakfast-2.webp"
+import argumentasionBreakfast1 from "/argumentasion-breakfast-1.jpg"
+import argumentasionBreakfast2 from "/argumentasion-breakfast-2.jpg"
 
 export default function Argumentasion() {
     return (<>
@@ -17,7 +17,7 @@ export default function Argumentasion() {
                 </div>
                 <div className=" w-full xl:w-1/2 flex flex-col gap-12 px-4 md:px-16 md:py-8 text-center xl:text-left    ">
                     <div className="flex flex-col gap-2">
-                        <p className="text-xl text-[#b92e2d] font-bold tracking-tight">Augmentation</p>
+                        <p className="hidden text-xl text-[#b92e2d] font-bold tracking-tight">Augmentation</p>
                         <h1 className=" text-3xl text-[#002922]  tracking-wider font-semibold bg-transparent">Why you should'nt skip breakfast</h1>
                     </div>
 
@@ -37,6 +37,14 @@ export default function Argumentasion() {
                             <p>
 
                                 A healthy breakfast contains vital nutrients such as calcium, iron, and vitamins. People who eat breakfast regularly are more likely to meet their nutritional needs. These nutrients help maintain health and strengthen the immune system.
+                            </p>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <h1 className="text-2xl">
+                                Breakfast supports weight control.
+                            </h1>
+                            <p>
+                                Breakfast helps stabilize blood sugar and reduces hunger later in the day. As a result, people are less likely to overeat or choose unhealthy foods. This helps prevent obesity and supports long-term weight balance.
                             </p>
                         </div>
                         <div className="flex flex-col gap-4">
