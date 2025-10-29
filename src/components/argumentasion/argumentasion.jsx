@@ -4,7 +4,7 @@ import argumentasionBreakfast2 from "/argumentasion-breakfast-2.webp"
 export default function Argumentasion() {
     return (<>
         <div className="flex flex-col-reverse xl:flex-row gap-8 px-4 py-16 md:px-8 md:py-32 ">
-            <div className="w-full xl:w-1/2 flex flex-row gap-8">
+            <div className="w-full xl:w-1/2 flex flex-row gap-2 md:gap-8">
                 <div className="relative w-1/2 flex items-start">
                     <img src={argumentasionBreakfast1} className="object-cover rounded-lg w-full h-4/5" alt="" />
 

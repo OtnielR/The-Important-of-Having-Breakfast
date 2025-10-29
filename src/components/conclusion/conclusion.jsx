@@ -39,7 +39,7 @@ export default function Conclusion() {
 
 
     return (<>
-        <div className="relative px-4 py-12 md:px-6 md:py-16">
+        <div className="relative px-4 py-6 md:py-12 md:px-6 xl:py-16">
             <div className="w-full h-full hidden xl:block absolute top-0 left-0 z-10 ">
                 <img src={leaf2} draggable="false" className="w-28 z-10 rotate-45 blur-sm absolute select-none transition-transform duration-50" alt="" style={{ top: `calc(20rem + ${motion.y * 20 + motion.scroll * -50}px)`, left: `calc(40rem + ${motion.x * 30}px)` }} />
             </div>

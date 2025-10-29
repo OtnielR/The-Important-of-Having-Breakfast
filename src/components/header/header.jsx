@@ -46,17 +46,17 @@ export default function Header() {
             <div className="" id="header">
                 <img src={rippedPaperEffect} className="absolute object-cover h-3/4 xl:top-0 left-0 z-0" />
 
-                <div className="w-screen h-screen hidden xl:block absolute top-0 left-0 z-10 ">
+                <div className="w-screen h-screen hidden md:block absolute top-0 left-0 z-10 ">
                     <img src={leaf1} draggable="false" className="w-48 blur-sm absolute top-24 left-32 select-none transition-transform duration-50" alt="" style={{ top: `calc(6rem + ${motion.y * 20 + motion.scroll * -50}px)`, left: `calc(8rem + ${motion.x * 30}px)` }} />
-                    <img src={leaf2} draggable="false" className="w-32 blur-sm absolute top-18 right-32 select-none transition-transform duration-50rotate-45" alt="" style={{ top: `calc(4.5rem + ${motion.y * -25 + motion.scroll * -80}px)`, right: `calc(8rem + ${motion.x * -40}px)` }} />
-                    <img src={tomatoes1} draggable="false" className="w-38 blur-sm absolute bottom-12 left-24 select-none transition-transform duration-50" alt="" style={{ bottom: `calc(8rem + ${motion.y * -25 + motion.scroll * 40}px)`, left: `calc(6rem + ${motion.x * 40}px)` }} />
+                    <img src={leaf2} draggable="false" className="w-32 blur-sm hidden xl:block absolute top-18 right-32 select-none transition-transform duration-50rotate-45" alt="" style={{ top: `calc(4.5rem + ${motion.y * -25 + motion.scroll * -80}px)`, right: `calc(8rem + ${motion.x * -40}px)` }} />
+                    <img src={tomatoes1} draggable="false" className="w-38 blur-sm hidden xl:block absolute bottom-12 left-12 select-none transition-transform duration-50" alt="" style={{ bottom: `calc(8rem + ${motion.y * -25 + motion.scroll * 40}px)`, left: `calc(6rem + ${motion.x * 40}px)` }} />
                     <img src={spices1} draggable="false" className="w-48 blur-sm absolute bottom-12 right-24 select-none transition-transform duration-50" alt="" style={{ bottom: `calc(4.5rem + ${motion.y * 55 + motion.scroll * 60}px)`, right: `calc(6rem + ${motion.x * -60}px)` }} />
                 </div>
 
                 <div className="flex flex-col items-center gap-12 px-4 md:px-12 py-12 z-20">
                     <div className="flex flex-col gap-8 justify-center items-center z-20">
                         <p className="text-2xl text-[#b92e2d] font-bold tracking-tight">Issue</p>
-                        <h1 className="w-full text-4xl md:text-6xl text-[#002922] text-center tracking-wider font-bold bg-transparent">THE IMPORTANCE OF BREAKFAST</h1>
+                        <h1 className="w-full md:w-2/3 text-4xl md:text-6xl text-[#002922] text-center tracking-wider font-bold bg-transparent">THE IMPORTANCE OF BREAKFAST</h1>
                     </div>
                     <div className="w-full md:w-4/5 xl:w-1/2 z-20 md:px-8">
                         <img src={headerBreakfast} className="w-full h-full" alt="" />
